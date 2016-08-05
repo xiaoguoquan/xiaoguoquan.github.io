@@ -93,7 +93,7 @@ Markdown这种高逼格的东西，到底怎么用。
 简单的说说
 在">
 <meta property="og:type" content="article">
-<meta property="og:title" content="学会怎么在博客上发布文章">
+<meta property="og:title" content="学会怎么在github的博客上发布文章">
 <meta property="og:url" content="http://yoursite.com/2016/07/09/My-first-test/index.html">
 <meta property="og:site_name" content="xiaoguoquan">
 <meta property="og:description" content="前话伴随着信息时代的发展，越来越多的人开始使用github，github上的博客也成为展现自我的一大平台，那么怎么在github上上传自己写的文章也成为了我们的必修课之一，那么到底该怎么上传文章，文章的编写应该是怎么样的呢，我在学习接触之后，编写了这样的一篇文章，分享自己的拙解。
@@ -104,9 +104,9 @@ Markdown这种高逼格的东西，到底怎么用。
 
 简单的说说
 在">
-<meta property="og:updated_time" content="2016-08-04T09:49:32.256Z">
+<meta property="og:updated_time" content="2016-08-05T02:54:00.847Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="学会怎么在博客上发布文章">
+<meta name="twitter:title" content="学会怎么在github的博客上发布文章">
 <meta name="twitter:description" content="前话伴随着信息时代的发展，越来越多的人开始使用github，github上的博客也成为展现自我的一大平台，那么怎么在github上上传自己写的文章也成为了我们的必修课之一，那么到底该怎么上传文章，文章的编写应该是怎么样的呢，我在学习接触之后，编写了这样的一篇文章，分享自己的拙解。
 
 如何创建新的文件及上传到github上的博客去。
@@ -137,7 +137,7 @@ Markdown这种高逼格的东西，到底怎么用。
 
   <link rel="canonical" href="http://yoursite.com/2016/07/09/My-first-test/"/>
 
-  <title> 学会怎么在博客上发布文章 | xiaoguoquan </title>
+  <title> 学会怎么在github的博客上发布文章 | xiaoguoquan </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -257,7 +257,7 @@ Markdown这种高逼格的东西，到底怎么用。
             
             
               
-                学会怎么在博客上发布文章
+                学会怎么在github的博客上发布文章
               
             
           </h1>
@@ -320,7 +320,9 @@ Markdown这种高逼格的东西，到底怎么用。
 <ul>
 <li><p>推荐编辑利器：<a href="https://www.jianshu.com/" target="_blank" rel="external">简书</a><br>为什么要推荐呢。因为该网站自带的文本编辑就有Markdown编辑！进入网站，登陆后点击右上角头像[<strong>写文章</strong>]进入页面，在窗口左边找到[<strong>设置</strong>]按钮进入设置页面，在[<strong>选择常用的编辑器</strong>]选择 Markdown 按钮，设置完成之后返回文本编辑窗口，在编辑窗上部找到[<strong>切换到预览模式</strong>]按钮就完成了。是不是很方便呢。</p>
 <p><em>我不是在打广告</em> <em>我真的不是在打广告</em></p>
-<h3 id="3-基本语法"><a href="#3-基本语法" class="headerlink" title="3. 基本语法"></a>3. 基本语法</h3><h5 id="语法属性"><a href="#语法属性" class="headerlink" title="语法属性"></a>语法属性</h5></li>
+</li>
+</ul>
+<h3 id="3-基本语法"><a href="#3-基本语法" class="headerlink" title="3. 基本语法"></a>3. 基本语法</h3><h5 id="语法属性"><a href="#语法属性" class="headerlink" title="语法属性"></a>语法属性</h5><ul>
 <li>作用域：作用域是一条语法标记的作用范围，常见为 行 段 间<ol>
 <li>行：回车换行（每一行以回车结尾）</li>
 <li>段：与行不同，每一段用一行空行隔开</li>
@@ -346,6 +348,59 @@ Markdown这种高逼格的东西，到底怎么用。
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">1. 有序列表1</div><div class="line">2. 有序列表2</div><div class="line">3. 游戏列表3</div><div class="line">* 无序列表</div><div class="line">+ 无序列表</div><div class="line">- 无需列表</div></pre></td></tr></table></figure>
 <hr>
+<ul>
+<li>引用：<code>&gt;</code>（大于号+空格）<blockquote>
+<p>事实上也是可以当成标题或者强调来用，毕竟这么显眼。</p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<ul>
+<li>链接： <code>[]()</code>[这里放文本]（这里放地址）<ol>
+<li>内联方式<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[百度](https://www.baidu.com)</div><div class="line">[简书](https://www.jianshu.com)</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+</ul>
+<p>输出就会成为以下的样子<br><a href="https://www.baidu.com" target="_blank" rel="external">百度</a><br><a href="https://www.jianshu.com" target="_blank" rel="external">简书</a></p>
+<ol>
+<li>引用方式<br>注意：以下的A/B可以替换成其他字符</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">点击[简书][A]</div><div class="line">点击[百度][B]</div><div class="line">[A]:https://www.jianshu.com</div><div class="line">[B]:https://www.baidu.com</div></pre></td></tr></table></figure>
+<p>输出后就会成为以下的样子<br>点击<a href="https://www.jianshu.com" target="_blank" rel="external">简书</a><br>点击<a href="https://www.baidu.com" target="_blank" rel="external">百度</a></p>
+<ul>
+<li><p>图片：<code>![]()</code>[这里放图片说明]（这里放图片地址）<br>注意：一定要有 ！号<br>图片也分为内联方式和引用方式，详情参照链接的写法。</p>
+</li>
+<li><p>强调：<code>* *    _ _</code>（星号对/下横杆对）</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">*重要的事情不用写三遍*</div><div class="line">_两边就够了_</div></pre></td></tr></table></figure>
+<p>输出一下，<em>重要的事情不用写三遍</em>   <em>两遍就够了</em><br>当然强调不仅仅只有斜体这一种，实际上有三种写法；<br>分别是：斜体<code>* *</code>，加粗<code>**  **</code>，斜体加粗<code>***   ***</code></p>
+<p>例如<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">大写加粗的尴尬怎么写</div><div class="line">&gt;  # **尴尬**</div></pre></td></tr></table></figure></p>
+<hr>
+<ul>
+<li>注释：<code>[^A][^A]:注释内容</code>[^A]是标注，[^A]:注释内容，必须一一相对应<br>详情请参照链接和图片的写法</li>
+</ul>
+<hr>
+<ul>
+<li>代码：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">代码行（`代码`）</div><div class="line">代码块（```代码```）</div><div class="line">Tab键Tab键+代码</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>`号成对出现，可以用Tab键缩进</p>
+<hr>
+<ul>
+<li>表格：<code>|</code>+<code>-</code>+<code>:</code>组合；<ol>
+<li>|和|之间形成单元格。</li>
+<li>第一行为表头，内容默认加粗居中。</li>
+<li>第二行-和：组合，标记本列单元格对齐方式。无:号，为默认左对齐；两端:为居中；左、右其中一端:向该侧对齐。</li>
+<li>其余行为普通单元格。</li>
+</ol>
+</li>
+</ul>
+<p>注意：（1）第二行不可省略，否则语法不完整；（2）表格必须为整段，中间不能有空行。<br>例：嗯。。。这个不常用，就不在这里演示了。</p>
+<hr>
+<p>关于Markdown的初步认识就在这里结束了。至于其他详细的内容，看心情再更新吧。</p>
+<h1 id="多说几句"><a href="#多说几句" class="headerlink" title="多说几句"></a>多说几句</h1><p>Markdown是为那些需要经常码字或者进行文字排版的、对码字手速和排版顺畅度有要求的人群设计的，他们希望用键盘把文字内容啪啪啪地打出来后就已经排版好了，最好从头到尾都不要使用鼠标。这些人包括经常需要写文档的码农、博客写手、网站小编、出版业人士等等。<br>学习Markdown并不像网上所说的5分钟学习上手，要想熟练使用还是要经过不断的使用和练习的。懒得折腾的人[<strong>例如我</strong>]为了github上的博客还是要慢慢磨啊。</p>
 
       
     </div>
@@ -519,7 +574,7 @@ Markdown这种高逼格的东西，到底怎么用。
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前话"><span class="nav-number">1.</span> <span class="nav-text">前话</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#在博客上写文章"><span class="nav-number">2.</span> <span class="nav-text">在博客上写文章</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#初步认识和学习Markdown"><span class="nav-number">3.</span> <span class="nav-text">初步认识和学习Markdown</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-什么是Markdown"><span class="nav-number">3.0.1.</span> <span class="nav-text">1. 什么是Markdown?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-Markdown编辑器"><span class="nav-number">3.0.2.</span> <span class="nav-text">2. Markdown编辑器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-基本语法"><span class="nav-number">3.0.3.</span> <span class="nav-text">3. 基本语法</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#语法属性"><span class="nav-number">3.0.3.0.1.</span> <span class="nav-text">语法属性</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#常用语法"><span class="nav-number">3.0.3.0.2.</span> <span class="nav-text">常用语法</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前话"><span class="nav-number">1.</span> <span class="nav-text">前话</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#在博客上写文章"><span class="nav-number">2.</span> <span class="nav-text">在博客上写文章</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#初步认识和学习Markdown"><span class="nav-number">3.</span> <span class="nav-text">初步认识和学习Markdown</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-什么是Markdown"><span class="nav-number">3.0.1.</span> <span class="nav-text">1. 什么是Markdown?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-Markdown编辑器"><span class="nav-number">3.0.2.</span> <span class="nav-text">2. Markdown编辑器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-基本语法"><span class="nav-number">3.0.3.</span> <span class="nav-text">3. 基本语法</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#语法属性"><span class="nav-number">3.0.3.0.1.</span> <span class="nav-text">语法属性</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#常用语法"><span class="nav-number">3.0.3.0.2.</span> <span class="nav-text">常用语法</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#多说几句"><span class="nav-number">4.</span> <span class="nav-text">多说几句</span></a></li></ol></div>
             
           </div>
         </section>
